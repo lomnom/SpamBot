@@ -6,7 +6,7 @@ try:
 	thingToSpam=input("what do you want to spam? keep it short! (ctrl+c to specify text file)")+"\n"
 except KeyboardInterrupt:
 	fromFile=True
-	thingToSpam=open(input("\nEnter the path to the text file, the file will be sent line by line! "), "r").read().split("\n")
+	thingToSpam=open(input("\nEnter the path to the text file, the file will be sent line by line! ").strip(), "r").read().split("\n")
 	print(thingToSpam)
 	quit()
 print("starting keyboard control and spamming in 5")
