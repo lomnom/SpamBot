@@ -7,6 +7,8 @@ try:
 except KeyboardInterrupt:
 	fromFile=True
 	thingToSpam=open(input("\nEnter the path to the text file, the file will be sent line by line! "), "r").read().split("\n")
+	print(thingToSpam)
+	quit()
 print("starting keyboard control and spamming in 5")
 t.sleep(1)
 print("4")
