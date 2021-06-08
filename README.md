@@ -1,7 +1,6 @@
 # SpamBot, the speedy offhand spammer!
 ## Usage
-### OSX
-1. `spam.bash`
+Run this: `spam.bash`, wait for a prompt and then enter the thing you want to spam
 ## Installation
 ### OSX
 ```bash
