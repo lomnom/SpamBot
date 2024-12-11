@@ -1,6 +1,6 @@
 # SpamBot, the speedy offhand spammer!
 ## Usage
-Run this: `spam.bash`, wait for a prompt and then enter the thing you want to spam. Press ctrl+c at the prompt to use the script to type out and send (not spam) a text file line by line instead. Press ctrl + c to stop.
+Run this: `spam.bash`, wait for a prompt and then enter the thing you want to spam. Press ctrl+c at the prompt to use the script to type out and send once (not spam) a text file line by line instead. Press ctrl + c to stop.
 ## Installation
 ### OSX
 ```bash
